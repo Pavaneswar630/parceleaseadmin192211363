@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/parceleaseadmin192211363">
+    <BrowserRouter basename="/parceleaseadmin192211363"> {/* 👈 Required for GitHub Pages */}
       <App />
     </BrowserRouter>
   </React.StrictMode>
